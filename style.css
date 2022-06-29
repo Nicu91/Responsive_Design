@@ -1,0 +1,188 @@
+body {
+    background-color: black;
+    color: white;
+}
+.trending-container-text {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 220px;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image-trending {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;    
+}
+.audience {
+    position: absolute;
+    right: 22px;
+    bottom: 30px;
+}
+.info-trending-movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 40px;
+    left: 22px;
+}
+.info-t {
+    justify-content: space-between;
+}
+.title-trending {
+    position: absolute;
+    font-size: large;
+    bottom: 16px;
+    left: 22px;
+}
+.favorite {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 50px;
+}
+.button-favorite{
+    background: none;
+    border: none;
+}
+.trending {
+   display: inline-flex;
+   justify-content: space-between;
+}
+.movie-container {
+    display: grid;
+    grid-template-columns: 1;
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+}
+.image {
+    width: 100%;
+    height: 7em;
+    border-radius: 20%;
+}
+.favorite-movie {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+.movie-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
+.info-container-movie {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 10px;
+    grid-area: 2;
+}
+h4 {
+    margin: 0 0 0 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.recomended {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .movie-container {
+        width: 190px;
+        height: 190px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .movie-container {
+        width: 240px;
+        height: 240px;
+}
+.image {
+    width: 100%;
+    height: 8em;   
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .
+    .movie-container {
+        width: 300px;
+        height: 300px;
+}
+.image {
+    width: 100%;
+    height: 10em;   
+}
+}
+#m11 #m12 #m13 #m14 #m15 #m16 #m17 #m18 #m19 #m20 {
+    display: none;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .movie-container {
+        width: 240px;
+        height: 240px;
+}
+    .image {
+    width: 100%;
+    height: 12em;
+}
+    .menu-container {
+        float: left;
+    }
+    .menu {
+    height: 100vh;
+    width: 80px;
+    position: fixed;
+    background-color: rgba(4, 68, 216, 0.741);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+    main { 
+        margin-left: 80px;
+    }
+    #search {
+        margin-left: 80px;
+    }
+    .secondary-buttons {
+        max-width: 30px;
+        max-height: 30px;
+        margin: 5px 20px 5px 10px;
+    }
+    .main-buttons {
+        max-width: 500px;
+        max-height: 50px;
+    }
+    .title {
+        padding-left: 30px;
+    }
+}

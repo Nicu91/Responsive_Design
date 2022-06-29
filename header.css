@@ -1,0 +1,30 @@
+.menu {
+    width: 100%;
+    background-color: rgba(4, 68, 216, 0.741);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.main-buttons {
+    max-width: 30px;
+    max-height: 30px;
+}
+.secondary-buttons {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 5px 20px 5px 20px;
+}
+#user-image {
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+#menu-nav {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#img-search {
+    height: 15px;
+}
